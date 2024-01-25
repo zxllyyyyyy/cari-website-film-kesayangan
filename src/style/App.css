@@ -1,0 +1,102 @@
+.App {
+  align-items: center;
+}
+
+.App-list {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: end;
+  justify-content: space-around;
+  background-color: #282c34;
+  border-bottom: 1px solid white;
+  position: fixed;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.Movie-search {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 500px;
+  padding-right: 100px;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: red;
+  text-shadow: 2px #222222;
+  font-weight: 900;
+}
+
+.navbar span {
+  margin-left: 20px;
+}
+
+.Nav-list {
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  padding-top: 50px;
+}
+
+.container {
+  display: flex;
+  margin: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.wrapper {
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  color: white;
+  text-decoration: center;
+}
+
+.title {
+  text-align: center;
+  color: #2222222;
+  margin-right: 25px;
+  margin-left: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Movie-img {
+  align-items: center;
+  height: 420px;
+  border-radius: 10px;
+  border: 10px #222222;
+}
+
+.Movie-text {
+  height: 100px;
+  margin: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.date {
+  font-size: 9px;
+  color: #2222222;
+}
+
+.rate {
+  font-size: 12px;
+  color: red;
+  text-decoration: underline;
+  font-style: italic;
+}
